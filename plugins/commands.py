@@ -313,7 +313,7 @@ async def start(client:Client, message):
             verify_id = ''.join(random.choices(string.ascii_uppercase + string.digits, k=7))
             await db.create_verify_id(user_id, verify_id)
             temp.CHAT[user_id] = grp_id
-            verify = f"https://telegram.me/{temp.U_NAME}?start=notcopy_{user_id}_{verify_id}_{file_id}"
+            verify = f"https://telegram.me/{temp.U_NAME}?start=file_{grp_id}_{file_id}"
             if is_third_shortener:
                 howtodownload = settings.get('tutorial_3', TUTORIAL_3)
             else:
