@@ -115,7 +115,7 @@ User - {}"""
 ⭐ Rating: {rating} / 10</b>
 """
 
-    FILE_CAPTION = """<a href='https://t.me/sb_botz_update'><b>ɴᴀᴍᴇ : {file_name}</b></a>"""
+    FILE_CAPTION = """<a href='https://t.me/tgtamillinks'><b>ɴᴀᴍᴇ : {file_name}</b></a>"""
     
 
     ALRT_TXT = """ᴊᴀʟᴅɪ ʏᴇʜᴀ sᴇ ʜᴀᴛᴏ !"""
