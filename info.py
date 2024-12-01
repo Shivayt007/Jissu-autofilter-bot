@@ -45,7 +45,7 @@ BIN_CHANNEL = int(environ.get('BIN_CHANNEL', '-1001764238165'))
 auth_channel = environ.get('AUTH_CHANNEL', '')
 SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1001625752177'))
 request_channel = environ.get('REQUEST_CHANNEL', '-1001838363129') # If anyone sends a request message to your bot, you will get it in this channel.
-MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002176919909')) # 
+MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1001689385917')) # 
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/tgtamillinks') #Support group link ( make sure bot is admin )
 #---------------------------------------------------------------
 #---------------------------------------------------------------
