@@ -20,10 +20,10 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "6420054947:AAGx4KP_UwaUP_v1m-_p89cfPW-Smy6
 
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7585797432').split()]
-USERNAME = environ.get('USERNAME', "https://t.me/TheOften_rids")
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '957158815').split()]
+USERNAME = environ.get('USERNAME', "https://t.me/lovetoride")
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001366123484'))
-MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/JisshuMovieZone')
+MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/tgtamillinks')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001686416905').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
@@ -46,14 +46,14 @@ auth_channel = environ.get('AUTH_CHANNEL', '')
 SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1001625752177'))
 request_channel = environ.get('REQUEST_CHANNEL', '-1001838363129') # If anyone sends a request message to your bot, you will get it in this channel.
 MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002176919909')) # 
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/+Vegv963Nf2kzYzBl') #Support group link ( make sure bot is admin )
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/tgtamillinks') #Support group link ( make sure bot is admin )
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 IS_VERIFY = is_enabled('IS_VERIFY', False)
 #---------------------------------------------------------------
-TUTORIAL = environ.get("TUTORIAL", "https://t.me/SB_Botz_Update/104")
-TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/SB_Botz_Update/104")
-TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/SB_Botz_Update/104")
+TUTORIAL = environ.get("TUTORIAL", "https://t.me/tgtamillinks")
+TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/tgtamillinks")
+TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/tgtamillinks")
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
 SHORTENER_API = environ.get("SHORTENER_API", "23b723c2db0550b4a9dab4b9f5c04d3dddab6534")
 SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'onepageyam.com')
