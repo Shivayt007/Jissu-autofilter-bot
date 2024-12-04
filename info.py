@@ -16,7 +16,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '2054877'))
 API_HASH = environ.get('API_HASH', '4227c1e45e462209a3dcc67ada88a44f')
-BOT_TOKEN = environ.get('BOT_TOKEN', "7184229986:AAEW-OlDTSgfaxDF0VpFEX-YYA5LWCUSZP8")
+BOT_TOKEN = environ.get('BOT_TOKEN', "7499058839:AAHJ-zxAT8zT845ejdthVbg3nG5vavC1MKY")
 
 #---------------------------------------------------------------
 #---------------------------------------------------------------
@@ -30,7 +30,7 @@ CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHAN
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://ltoride:ltoride@cluster0.c4ls2lb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 #DATABASE_NAME = environ.get('DATABASE_NAME', "tgd")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'My_Tg_files')
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'My_Tgg_files')
 #----------------------
 #---------------------------------------------------------------
 #---------------------------------------------------------------
