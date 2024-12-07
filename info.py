@@ -24,7 +24,7 @@ ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ
 USERNAME = environ.get('USERNAME', "https://t.me/lovetoride")
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001366123484'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/tgtamillinks')
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001686416905 -1002161064582').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001686416905 -1002161064582 -1002356863699').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://ltoride:ltoride@cluster0.c4ls2lb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
